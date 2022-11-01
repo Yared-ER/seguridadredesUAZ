@@ -8,8 +8,9 @@ Find the flag in this picture.
 
 img.jpg
 
-# Solucion
-'''shell
+# Solucion]
+
+```console
 ┌──(yareds45㉿yareds45)-[~/…/seguridadredesUAZ/picoCTF/forensicCTF/someta]
 └─$ exiftool pico_img.png
 ExifTool Version Number         : 12.48
@@ -40,14 +41,7 @@ Derived From Document ID        : xmp.did:A5566E72B2B811E8BC7F9A4303DF1F9B
 Warning                         : [minor] Text/EXIF chunk(s) found after PNG IDAT (may be ignored by some readers)
 Artist                          : picoCTF{s0_m3ta_d8944929}
 Image Size                      : 600x600
-Megapixels                      : 0.360
-
-┌──(yareds45㉿yareds45)-[~/…/seguridadredesUAZ/picoCTF/forensicCTF/someta]
-└─$ exiftool pico_img.png | grep picoCTF
-Artist                          : picoCTF{s0_m3ta_d8944929}
-
-┌──(yareds45㉿yareds45)-[~/…/seguridadredesUAZ/picoCTF/forensicCTF/someta]
-└─$
-'''
+Megapixels                      : 0.360   
+```
 
 
